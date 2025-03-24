@@ -1,0 +1,25 @@
+{
+  "name": "@irahuldutta02/num-abbr",
+  "version": "1.0.0",
+  "description": "A utility to abbreviate numbers (e.g., 2000 -> 2K, 1000000 -> 1M)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irahuldutta02/num-abbr.git"
+  },
+  "keywords": [
+    "number",
+    "abbreviation",
+    "shorten",
+    "format"
+  ],
+  "author": "Rahul Dutta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irahuldutta02/num-abbr/issues"
+  },
+  "homepage": "https://github.com/irahuldutta02/num-abbr#readme"
+}

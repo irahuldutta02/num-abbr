@@ -3,9 +3,11 @@
     "module": "CommonJS", // Use CommonJS
     "target": "ES6", // Target modern JavaScript
     "declaration": true, // Generate .d.ts files
+    "declarationDir": "dist/cjs", // Output directory for declaration files
     "outDir": "dist/cjs", // Output directory for CJS files
     "strict": true, // Enable strict type checking
     "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "allowSyntheticDefaultImports": true, // Handle default imports gracefully
     "moduleResolution": "node" // Resolve modules in Node.js style
   },
   "include": [

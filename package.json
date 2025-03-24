@@ -1,10 +1,12 @@
 {
   "name": "@irahuldutta02/num-abbr",
   "version": "1.0.0",
-  "description": "A utility to abbreviate numbers (e.g., 2000 -> 2K, 1000000 -> 1M)",
-  "main": "index.js",
+  "description": "A lightweight utility to abbreviate numbers with customizable options for formatting, suffixes, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "build": "tsc",
+    "test": "node dist/test.js"
   },
   "repository": {
     "type": "git",
@@ -14,12 +16,28 @@
     "number",
     "abbreviation",
     "shorten",
-    "format"
+    "format",
+    "compact",
+    "suffix",
+    "humanize",
+    "convert",
+    "utility",
+    "helper",
+    "number-abbreviation",
+    "number-shortener",
+    "number-formatter",
+    "abbreviate-number",
+    "shorten-number",
+    "compact-number",
+    "human-readable"
   ],
   "author": "Rahul Dutta",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/irahuldutta02/num-abbr/issues"
   },
-  "homepage": "https://github.com/irahuldutta02/num-abbr#readme"
+  "homepage": "https://github.com/irahuldutta02/num-abbr#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }

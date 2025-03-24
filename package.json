@@ -2,6 +2,7 @@
   "name": "@irahuldutta02/num-abbr",
   "version": "2.0.0",
   "description": "A lightweight utility to abbreviate numbers with customizable options for formatting, suffixes, and more.",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

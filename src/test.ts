@@ -1,4 +1,4 @@
-import abbreviateNumber from "./index";
+import abbreviateNumber from "./index.js";
 
 // Default behavior
 console.log(abbreviateNumber(500)); // Output: "500"

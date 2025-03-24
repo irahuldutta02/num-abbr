@@ -1,6 +1,6 @@
 {
   "name": "@irahuldutta02/num-abbr",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A lightweight utility to abbreviate numbers with customizable options for formatting, suffixes, and more.",
   "type": "module",
   "main": "dist/index.js",
@@ -9,6 +9,9 @@
     "build": "tsc",
     "test": "node dist/test.js"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irahuldutta02/num-abbr.git"

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // Use CommonJS
+    "target": "ES6", // Target modern JavaScript
+    "declaration": true, // Generate .d.ts files
+    "outDir": "dist/cjs", // Output directory for CJS files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "moduleResolution": "node" // Resolve modules in Node.js style
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

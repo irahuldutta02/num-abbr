@@ -1,17 +1,18 @@
 {
   "name": "@irahuldutta02/num-abbr",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "A lightweight utility to abbreviate numbers with customizable options for formatting, suffixes, and more.",
-  "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "test": "node dist/test.js"
-  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
   "files": [
     "dist"
   ],
+  "scripts": {
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "npm run build:esm && npm run build:cjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irahuldutta02/num-abbr.git"
